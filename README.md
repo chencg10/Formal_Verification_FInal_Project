@@ -1,13 +1,13 @@
 # Formal_Verification_FInal_Project
-This is a github repository of our Formal Verifiction course. the folder includes all of the codes we wrote
+This is a github repository of our final project in Formal Verifiction course. the folder includes all of the codes we wrote
 
 
-Codes of part 2:
-    names:
-          1. createBoard.py
-          2. get_LURD_moves.py
-          3. run_nuXmv.py
-          4. main.py
+Codes of part 2:                                                                                                                                                                                        
+    names:                                                                                                                                                                                                
+          1. createBoard.py                                                                                                                                                                            
+          2. get_LURD_moves.py                                                                                                                                                                            
+          3. run_nuXmv.py                                                                                                                                                                                 
+          4. main.py                                                                                                                                                                                    
 
 For this part to run appropriately, there are several changes that need to be made.
 1. in "createBoard.py" in the function "gen_board()" in line no. 419:
@@ -26,12 +26,12 @@ For this part to run appropriately, there are several changes that need to be ma
    line 61 - the input to the main() function should be **False**
 
 
-Codes of part 3:
-        names: 
-          1. createBoard.py
-          2. get_LURD_moves.py
-          3. run_nuXmv.py
-          4. main.py
+Codes of part 3:                                                                                                                                                                                        
+        names:                                                                                                                                                                                         
+          1. createBoard.py                                                                                                                                                                            
+          2. get_LURD_moves.py                                                                                                                                                                            
+          3. run_nuXmv.py                                                                                                                                                                                
+          4. main.py                                                                                                                                                                                    
 
 For this part to run appropriately, there are several changes that need to be made.
 1. in "createBoard.py" in the function "gen_board()" in line no. 419:
@@ -50,13 +50,13 @@ For this part to run appropriately, there are several changes that need to be ma
    line 61 - the input to the main() function should be **False**
 
 
-Codes of part 4:
-        names: 
-          1. createBoard.py
-          2. get_LURD_moves.py
-          3. run_nuXmv.py
-          4. main.py
-          5. iterative_solving.py
+Codes of part 4:                                                                                                                                                                                        
+        names:                                                                                                                                                                                         
+          1. createBoard.py                                                                                                                                                                            
+          2. get_LURD_moves.py                                                                                                                                                                            
+          3. run_nuXmv.py                                                                                                                                                                                
+          4. main.py                                                                                                                                                                                    
+          5. iterative_solving.py                                                                                                                                                                        
 
 For this part to run appropriately, there are several changes that need to be made.
 1. in "createBoard.py" in the function "gen_board()" in line no. 419:
