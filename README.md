@@ -45,7 +45,7 @@ For this part to run appropriately, there are several changes that need to be ma
 4. In the main.py code, in order to use the code in part 3 mode, you need to do the following changes:
    line 9 - change the path varibale to the FULL XSB BOARD PATH.
             The board should be save in XSB format and as a .txt file in order for the code to work.
-   line 15 - Should be changed to **BDD** if running with BDD engine is requested or **SAT** if running with SAT engine is requested.
+   line 15 - Should be changed to **BDD** if running with BDD engine is requested or **SAT** if running with SAT engine is requested (a value for k will be requested if you choose to run with "SAT" engine).
              Using the value **None** in this line would result in running the model in the SAT engine without a bounded number of steps (k will equal None as well)
    line 57 - the input to the main() function should be **False**
 
