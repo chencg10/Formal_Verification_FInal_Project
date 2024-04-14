@@ -76,10 +76,14 @@ For this part to run appropriately, there are several changes that need to be ma
                 
    5. In "iterative_solving.py" in lines 180 and 236, Please change the os.chdir() command input to your nuXmv bin repo path (use an r string).
 
+
 Note - for all parts, all of the places that need to be changed are also marked in the code with comment blocks of the form:
-#### some note ####
+####### some note #######
 line needed to be changed
-###################
+#########################
+
+
+
 **ALL CODES SHOULD BE RUNED ONLY FROM THE main.py FILE (IN ALL PARTS)**
 
 
