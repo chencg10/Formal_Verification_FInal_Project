@@ -21,7 +21,7 @@ For this part to run appropriately, there are several changes that need to be ma
 4. In the main.py code, in order to use the code in part 2 mode, you need to do the following changes:
    line 9 - change the path varibale to the FULL XSB BOARD PATH.
             The board should be save in XSB format and as a .txt file in order for the code to work.
-   line 15 - Should remain with the value **"SAT"** if a bmc type run is requested.
+   line 15 - Should remain with the value **"SAT"** if a bmc type run is requested (a value for k will be requested if you choose to run with "SAT" engine).
              If a run without a bounded number of steps is requested then change the value to **None**.
    line 57 - the input to the main() function should be **False**
 
@@ -67,10 +67,10 @@ For this part to run appropriately, there are several changes that need to be ma
                 
 3. The same change need to be made in "run_nuXmv.py", in line 10 pleas put in the os.chdir() command your bin repo path (use an r string).
             
-4. In the main.py code, in order to use the code in part 3 mode, you need to do the following changes:
+4. In the main.py code, in order to use the code in part 4 mode (iterative mode), you need to do the following changes:
    line 9 - change the path varibale to the FULL XSB BOARD PATH.
             The board should be save in XSB format and as a .txt file in order for the code to work.
-   line 15 - Should remain with the value **"SAT"** if a bmc type run is requested.
+   line 15 - Should remain with the value **"SAT"** if a bmc type run is requested (a value for k will be requested if you choose to run with "SAT" engine).
              If a run without a bounded number of steps is requested then change the value to **None**.
    line 57 - the input to the main() function should be **True**
                 
